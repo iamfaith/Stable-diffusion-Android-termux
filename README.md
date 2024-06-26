@@ -43,13 +43,13 @@ login to proot distro
 
 Install python git and nano text editor
 
->apt install python3 python3-pip git git-lfs wget nano
+>apt install python3 python3-pip git git-lfs wget nano python3-opencv
 
 once above packages are installed then install dependencies
 
 >python3 -m venv ~/myenv
 
->pip3 install --upgrade diffusers transformers accelerate ftfy xformers onnx onnxruntime torch
+>~/myenv/bin/python3 -m pip install --upgrade diffusers transformers accelerate ftfy xformers onnx onnxruntime torch
 
 clone stable diffusion 1.5 onnx model from huggingface
 
