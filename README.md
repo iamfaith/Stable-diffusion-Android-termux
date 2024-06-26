@@ -47,6 +47,8 @@ Install python git and nano text editor
 
 once above packages are installed then install dependencies
 
+>python3 -m venv ~/myenv
+
 >pip3 install --upgrade diffusers transformers accelerate ftfy xformers onnx onnxruntime torch
 
 clone stable diffusion 1.5 onnx model from huggingface
